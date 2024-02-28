@@ -1,0 +1,82 @@
+.header-video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+/* Global styles for the sidebar */
+.font-bold {
+    font-weight: bold;
+  }
+  
+  .font-serif {
+    font-family: serif;
+  }
+  
+  /* Styles for the sidebar brand */
+  .d-none {
+    display: none !important;
+  }
+  
+  .d-md-flex {
+    display: flex !important;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  /* Styles for the sidebar navigation */
+  .bg-orange-700 {
+    background-color: #ff6600; /* Adjust color as needed */
+  }
+  
+  .justify-items-center {
+    justify-items: center;
+  }
+  
+  /* Styles for the sidebar toggler */
+  .d-lg-flex {
+    display: flex !important;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../assets/Logo/rider.mp4");
+  
+    /* Set a specific height */
+    /* min-height: 500px;  */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* 
+  home:img {
+    width: 40%;
+  }
+  
+  
+  home:h2 {
+    text-align: center;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 10vw;
+      text-shadow: -0.04em 0.04em 0 #000,
+                    0.04em 0.04em 0 #000,
+                   0.04em -0.04em 0 #000,
+                  -0.04em -0.04em 0 #000;
+  } */

@@ -1,0 +1,100 @@
+#mytextblock {
+    background-color: #e2ad51;
+    min-height: 100%;
+  }
+  
+  #mytextblock-container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  
+  #mytextblock-title {
+    color: #151515;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+  }
+  
+  #mytextblock-content {
+    color: #1e1e1d;
+    font-size: 20px;
+  }
+  
+  #mytextblock-footer {
+    color: #181817;
+    font-size: 15px;
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-bottom: 20px;
+  
+  }
+  
+  #mytextblock-devsense {
+    text-decoration: none;
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .animation, .animation_layer {
+      height: 1000px;
+  }
+  
+  .animation {
+    display: block;
+      position: relative;
+      z-index: 10;
+  }
+  
+  .animation_layer {
+      background-position: bottom center;
+      background-size: auto 1038px;
+      background-repeat: repeat-x;
+      width: 100%;
+      position: absolute;
+  }
+  .animation_layer.parallax {
+      position: fixed;
+  }
+  
+  #artback {
+    background-image: url(./../../assets/animation/background.png);
+  }
+  
+  #mountain {
+    background-image: url(./../../assets/animation/mountains.png);
+  }
+  
+  #logoland {
+    background-image: url(./../../assets/animation/logo_land2.png);
+  }
+  
+  #jungle1 {
+    background-image: url(./../../assets/animation/jungle1.png);
+  }
+  
+  #jungle2 {
+    background-image: url(./../../assets/animation/jungle2.png);
+  }
+  
+  #jungle3 {
+    background-image: url(./../../assets/animation/jungle3.png);
+  }
+  
+  #jungle4 {
+    background-image: url(./../../assets/animation/jungle4.png);
+  }
+  
+  #jungle5 {
+    background-image: url(./../../assets/animation/jungle5.png);
+  }
+  
+  #manonmountain {
+    background-image: url(./../../assets/animation/man_on_mountain.png);
+  }

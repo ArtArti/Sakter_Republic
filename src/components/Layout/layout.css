@@ -1,0 +1,156 @@
+
+  #textblock {
+    background-color: #635fa451;
+    min-height: 100%;
+    margin-top: 600px;
+    background-image: url(./../../assets/myanim/junglejpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #textblock-container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  
+  #textblock-title{
+    color: #ffaf1b;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+  }
+  
+  #textblock-content {
+    color: #ffaf1b;
+    font-size: 20px;
+  }
+  
+  #textblock-footer {
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-bottom: 20px;
+  
+  }
+  
+  #textblock-devsense {
+    text-decoration: none;
+    color: #ffaf1b;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .animation, .animation_layer {
+      height: auto;
+  }
+  
+  .animation {
+      display: block;
+      position: relative;
+      z-index: 10;
+      height: 100%;
+  }
+  
+  .animation_layer {
+      background-position: bottom center;
+      background-size: auto 1038px;
+      background-repeat: repeat-x;
+      width: 100%;
+      position: absolute;
+  }
+  .animation_layer.parallax {
+      position: fixed;
+  }
+  
+  #back {
+    background-image: url(./../../assets/Logo/bg.jpg);
+  }
+  
+  #cloud1 {
+    background-image: url(./../../assets/Logo/clouds_1.png);
+  }
+  
+  #cloud2{
+    background-image: url(./../../assets/Logo/clouds_2.png);
+  }
+  
+  #man {
+    background-image: url(./../../assets/Logo/man.png);
+  }
+  
+  #mountain1 {
+    background-image: url(./../../assets/Logo/mountain_left.png);
+  }
+  
+  #mountain2 {
+    background-image: url(./../../assets/Logo/mountain_right.png);
+  }
+  
+  #junglejpg{
+    /* background-image: url(./../../assets/Logo/bg.jpg);  */
+    background-image: url(./../../assets/Logo/bg.jpg); 
+  }
+#rock{
+  background-image: url(./../../assets/myanim/rock.png);
+}
+/* #manonmountain{
+  background-image: url(./../../assets/myanim/manonmountain.png);
+  background: transparent;
+} */
+#man2{
+  background-image: url(./../../assets/myanim/man2.png);
+}
+  
+#mysection {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: #a0b5e0; */
+}
+
+#video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Ensure the video stays behind other content */
+}
+
+
+.parallax-section {
+  height: 100vh;
+  /* background-image: url('path/to/background-image.jpg'); Replace with your background image */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.parallax-content {
+  max-width: 600px;
+}
+
+.normal-section {
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.normal-content {
+  max-width: 600px;
+}

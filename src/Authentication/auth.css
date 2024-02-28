@@ -1,0 +1,6 @@
+#login-bg{
+    background-image: url('./../assets//myanim/junglejpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}

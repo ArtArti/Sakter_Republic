@@ -1,0 +1,2 @@
+src/assets/Logo/rider.mp4 filter=lfs diff=lfs merge=lfs -text
+src/assets/ride.mp4 filter=lfs diff=lfs merge=lfs -text
