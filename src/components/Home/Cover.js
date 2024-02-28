@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import { motion, useAnimation } from 'framer-motion'; // Import motion and useAnimation
 import { CButton } from '@coreui/react';
 import g2 from './../../assets/myanim/g2.jpg';
-import rider from 'https://www.youtube.com/watch?v=B1TRRiLOw0Q';
+import rider from './cover.mp4';
 
 function Cover() {
   const controls = useAnimation(); // Initialize animation controls
