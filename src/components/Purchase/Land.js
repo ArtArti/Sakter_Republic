@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ride from "./../../assests/ride.mp4";
+import ride from "./ride.mp4";
 import {
   CCarousel,
   CImage,
